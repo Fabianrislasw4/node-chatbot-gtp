@@ -1,0 +1,29 @@
+{
+  "name": "chatbot-gtp",
+  "version": "1.0.0",
+  "description": "Practica de conexión a un openai",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabianrislasw4/node-chatbot-gtp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fabianrislasw4/node-chatbot-gtp/issues"
+  },
+  "homepage": "https://github.com/Fabianrislasw4/node-chatbot-gtp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0"
+  }
+}
