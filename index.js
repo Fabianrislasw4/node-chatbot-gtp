@@ -22,7 +22,9 @@ app.use(express.static('public'));
 
 app.get('/' , (req , res)=>{
 
-   res.send('Inicio el server....');
+   res.send({
+    "response": "Servidor iniciado"
+   });
 
 });
 
