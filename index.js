@@ -22,7 +22,7 @@ app.use(express.static('public'));
 
 app.get('/' , (req , res)=>{
 
-   res.send('hello from simple server :)');
+   res.send('Inicio el server....');
 
 });
 
