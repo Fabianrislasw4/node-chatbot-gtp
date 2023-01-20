@@ -9,7 +9,7 @@ dotenv.config();
 const PORT = process.env.PORT || 9500;
 
 const configuration = new Configuration({
-    apiKey:"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",
+    apiKey:"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",
 });
 
 const openAI = new OpenAIApi(configuration);
